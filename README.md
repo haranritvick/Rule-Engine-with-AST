@@ -63,21 +63,23 @@ Using MongoDB as the database for rule storage.
    cd Rule-Engine-with-AST
    ```
 2. Setup Client
-   ```cd client
-    npm install axios dotenv
-    npm start
-```
+   ```
+   cd client
+   npm install axios dotenv
+   npm start
+   ```
 3. Setup Server
    ```
      cd ../server
     npm install express axios dotenv cors mongoose body-parser nodemon
     npx nodemon server.js
-   ```
+    ```
 # Environment Setup
 Create a .env file in the server directory with the following contents:
-`MONGO_URI=your_mongodb_connection_string
+```
+MONGO_URI=your_mongodb_connection_string
  PORT=5000
-`
+```
 
 # Test Cases
 **Example:**
