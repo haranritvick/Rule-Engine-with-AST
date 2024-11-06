@@ -32,6 +32,6 @@ creation,combination, and modification of these rules.
     "salary": 48000,
     "location": "Remote"
     }`
- **Expected Output:** True
+ - **Expected Output:** True
 
 ## Screenshots of Testcases
