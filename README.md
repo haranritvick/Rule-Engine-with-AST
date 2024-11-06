@@ -35,3 +35,6 @@ creation,combination, and modification of these rules.
  - **Expected Output:** True
 
 ## Screenshots of Testcases
+![image](https://github.com/user-attachments/assets/b9a1198f-bcf9-49cc-9aea-e356f8c28693)
+![image](https://github.com/user-attachments/assets/dc17882b-b4e8-4c87-ae92-f7f8c55a7303)
+
