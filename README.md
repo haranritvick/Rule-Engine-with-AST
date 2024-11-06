@@ -39,4 +39,6 @@ creation,combination, and modification of these rules.
 ![image](https://github.com/user-attachments/assets/ce9a7764-1345-44c0-b8a3-609d21d75049)
 ![image](https://github.com/user-attachments/assets/8ccc2d30-43a7-4253-b6ba-25aa2de27e0a)
 
-
+## Edge case Screenshots
+- If the rule expression is invalid.
+![image](https://github.com/user-attachments/assets/e36996c6-b457-46ff-b24c-2193cc33d1bf)
