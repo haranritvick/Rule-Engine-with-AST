@@ -83,7 +83,7 @@ Rule Addition & Combination:
 - Rule 1: ` ((age < 30 AND experience >= 2) OR (age >= 30 AND experience >= 5)) AND performance = 'High'`
 - Rule 2" `(salary >= 60000 AND location = 'NYC') OR (salary >= 45000 AND location = 'Remote')`
 
-**Rule Evaluation:**
+### Rule Evaluation:
 `{ 
   "age": 28, 
   "experience": 3, 
@@ -92,7 +92,7 @@ Rule Addition & Combination:
   "location": "Remote" 
 }
 `
-**Expected Output:** `true`
+### Expected Output: `true`
 
 # Edge Cases
 
@@ -106,13 +106,12 @@ Rule Addition & Combination:
 
 # Screenshots
 
-1. Rule Creation & Combination Output:
+1. Rule Creation, Combination, Evaluation Output:
    
 ![image](https://github.com/user-attachments/assets/b9a1198f-bcf9-49cc-9aea-e356f8c28693)
 
 ![image](https://github.com/user-attachments/assets/ce9a7764-1345-44c0-b8a3-609d21d75049)
 
-2.  Rule Evaluation Results:
 
    ![image](https://github.com/user-attachments/assets/8ccc2d30-43a7-4253-b6ba-25aa2de27e0a)
 
