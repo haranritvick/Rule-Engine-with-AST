@@ -24,7 +24,7 @@ Each node has the following fields:
 # Database Schema
 Using MongoDB as the database for rule storage.
 
-Example schema for storing rules:
+### Example schema for storing rules:
 `
 {
   "_id": "uniqueRuleId",
@@ -58,19 +58,21 @@ Example schema for storing rules:
 
 # Setup Instructions
 1. Clone the Repository
-   `git clone https://github.com/haranritvick/Rule-Engine-with-AST.git
-    cd Rule-Engine-with-AST
-`
+   ```
+   git clone https://github.com/haranritvick/Rule-Engine-with-AST.git
+   cd Rule-Engine-with-AST
+   ```
 2. Setup Client
-   `cd client
+   ```cd client
     npm install axios dotenv
     npm start
-`
+```
 3. Setup Server
-   `cd ../server
+   ```
+     cd ../server
     npm install express axios dotenv cors mongoose body-parser nodemon
     npx nodemon server.js
-`
+   ```
 # Environment Setup
 Create a .env file in the server directory with the following contents:
 `MONGO_URI=your_mongodb_connection_string
@@ -80,18 +82,18 @@ Create a .env file in the server directory with the following contents:
 # Test Cases
 **Example:**
 Rule Addition & Combination:
-- Rule 1: ` ((age < 30 AND experience >= 2) OR (age >= 30 AND experience >= 5)) AND performance = 'High'`
-- Rule 2" `(salary >= 60000 AND location = 'NYC') OR (salary >= 45000 AND location = 'Remote')`
+- Rule 1: ``` ((age < 30 AND experience >= 2) OR (age >= 30 AND experience >= 5)) AND performance = 'High'```
+- Rule 2" ```(salary >= 60000 AND location = 'NYC') OR (salary >= 45000 AND location = 'Remote')```
 
 ### Rule Evaluation:
-`{ 
+```{ 
   "age": 28, 
   "experience": 3, 
   "performance": "High", 
   "salary": 48000, 
   "location": "Remote" 
 }
-`
+```
 ### Expected Output: `true`
 
 # Edge Cases
