@@ -20,52 +20,18 @@ creation,combination, and modification of these rules.
 ## Testcases
 
  - Enter the below rules in the rule box input
- - `(age > 18 AND department = 'Sales')`
- - `(salary > 30000 OR experience > 3)`
- - **Expected Combined AST:**
- 
+ - `((age < 30 AND experience >= 2) OR (age >= 30 AND experience >= 5)) AND performance = 'High'`
+ - `(salary >= 60000 AND location = 'NYC') OR (salary >= 45000 AND location = 'Remote')`
 
-    {
-  "combinedAst": {
-    "type": "operator",
-    "operator": "AND",
-    "left": {
-      "type": "logical",
-      "operator": "AND",
-      "left": {
-        "type": "comparison",
-        "operator": ">",
-        "left": "age",
-        "right": 18
-      },
-      "right": {
-        "type": "comparison",
-        "operator": "=",
-        "left": "department",
-        "right": "Sales"
-      }
-    },
-    "right": {
-      "type": "operator",
-      "operator": "OR",
-      "left": {
-        "type": "comparison",
-        "operator": ">",
-        "left": "salary",
-        "right": 30000
-      },
-      "right": {
-        "type": "comparison",
-        "operator": ">",
-        "left": "experience",
-        "right": 3
-      }
-    }
-  }
-}
-**Add values for evaluation:**
+- **Add values for evaluation:**
 
- - `{"age": 22, "department": "Sales", "salary": 25000, "experience": 4}`
+   `{
+    "age": 28,
+    "experience": 3,
+    "performance": "High",
+    "salary": 48000,
+    "location": "Remote"
+    }`
  **Expected Output:** True
 
 ## Screenshots of Testcases
