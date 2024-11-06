@@ -40,5 +40,10 @@ creation,combination, and modification of these rules.
 ![image](https://github.com/user-attachments/assets/8ccc2d30-43a7-4253-b6ba-25aa2de27e0a)
 
 ## Edge case Screenshots
-- If the rule expression is invalid.
+ ### If the rule expression is invalid.
+
 ![image](https://github.com/user-attachments/assets/e36996c6-b457-46ff-b24c-2193cc33d1bf)
+
+### We can edit/delete the rule once added
+
+![image](https://github.com/user-attachments/assets/6cf31094-1133-42ad-9e81-5eeda6cfb519)
