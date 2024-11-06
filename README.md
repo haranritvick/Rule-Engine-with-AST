@@ -22,7 +22,7 @@ creation,combination, and modification of these rules.
  - Enter the below rules in the rule box input
  - `((age < 30 AND experience >= 2) OR (age >= 30 AND experience >= 5)) AND performance = 'High'`
  - `(salary >= 60000 AND location = 'NYC') OR (salary >= 45000 AND location = 'Remote')`
-
+ - After adding the rule press on **Combine Rules** button.
 - **Add values for evaluation:**
 
    `{
