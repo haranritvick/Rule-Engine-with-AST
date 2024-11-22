@@ -88,7 +88,8 @@ Rule Addition & Combination:
 - Rule 2" ```(salary >= 60000 AND location = 'NYC') OR (salary >= 45000 AND location = 'Remote')```
 
 ### Rule Evaluation:
-```{ 
+```
+{ 
   "age": 28, 
   "experience": 3, 
   "performance": "High", 
